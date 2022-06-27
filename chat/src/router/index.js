@@ -1,14 +1,20 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Index from "../views/index.vue";
+import Websocket from "../views/websocket.vue";
+import Netty from "../views/netty.vue";
 
 Vue.use(VueRouter);
 
 const routes = [
   {
-    path: "/",
-    name: "Index",
-    component: Index,
+    path: "/websocket",
+    name: "Websocket",
+    component: Websocket,
+  },
+  {
+    path: "/netty",
+    name: "Netty",
+    component: Netty,
   },
 ];
 
