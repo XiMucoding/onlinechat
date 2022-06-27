@@ -26,6 +26,11 @@
             <artifactId>lombok</artifactId>
             <version>1.18.22</version>
         </dependency>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.74.Final</version>
+        </dependency>
         <!-- websocket -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
